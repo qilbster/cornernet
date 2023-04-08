@@ -1,0 +1,7 @@
+#!/bin/bash
+python train.py --log_name vinbig_run1 \
+        --arch small_hourglass \
+        --lr 5e-4 \
+        --lr_step 90,120 \
+        --batch_size 48 \
+        --num_epochs 3 
